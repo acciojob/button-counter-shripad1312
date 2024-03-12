@@ -12,10 +12,10 @@ class Incremnt extends Components{
     }
     render(){
       return (
-            <div>
+            <>
            <p>Button clicked {this.state.count} times</p>
              <button onClick={this.increment}>Click me</button>  
-            </div>
+            </>
           ) 
     }
   }
