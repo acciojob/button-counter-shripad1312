@@ -1,6 +1,6 @@
-import React from "react";
+import {Component} from 'react';
 
-class Incremnt extends Components{
+class Incremnt extends Component{
     constructor(props){
       super(props);
       this.state={count:0};
