@@ -7,7 +7,7 @@ class Incremnt extends Component
       this.state={count:0};
     }
      
-    increments=()=>{
+    incr=()=>{
     const curr=this.state.count;
     this.setState({count:curr+1});
     }
@@ -15,9 +15,10 @@ class Incremnt extends Component
       return (
             <>
            <p>Button clicked {this.state.count} times</p>
-             <button onClick={this.increments}>Click me</button>  
+             <button onClick={this.incr}>Click me</button>  
             </>
           ) 
     }
   }
+  
   export default Incremnt;
