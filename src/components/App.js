@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import increment from "./Incremnt"
+import Incremnt from "./Incremnt"
 const App = () => {
   return (
     <div>
