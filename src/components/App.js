@@ -1,11 +1,11 @@
 
 import React from "react";
 import './../styles/App.css';
-import Incremnt from "./increment"
+import S from "./increment"
 const App = () => {
   return (
     <div>      
-       <Incremnt/>
+       <S/>
     </div>
   )
 }
