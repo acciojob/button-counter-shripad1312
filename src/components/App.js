@@ -4,8 +4,7 @@ import './../styles/App.css';
 import Incremnt from "./increment"
 const App = () => {
   return (
-    <div>
-        
+    <div>      
        <Incremnt/>
     </div>
   )
