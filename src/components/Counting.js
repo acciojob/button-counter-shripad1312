@@ -1,24 +1,23 @@
 import React,{Component} from "react"
 
 
-class Counter extends Component{
-
-    constructor(props){
-      super(props);
-      this.state={count:0};
-    }
-
-     adding=()=>{
-    let curr=this.state.count;
-    this.setState({count:curr+1});
-    }
-    render(){
-   <>
-   <p>Button clicked {this.state.count} times</p>
-   <Button onClick={adding}>Click me</Button>
-   </>
-    }
-
+import {useState } from "react";
+import './../styles/App.css';
+// import Counter from "./components/Counting";
+const Comps = () => {
+const [count,setCount]=useState(0);
+  const add=()=>{
+  setCount(count+1);
+  }
+  return (
+       
+<>
+<p>Button clicked {count} times</p>
+<button onClick={add}>Click me</button>
+</>
+      
+  
+  );
 }
 
-export default Counter;
+export default  Comps;
