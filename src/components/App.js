@@ -15,4 +15,4 @@ const Cpp = () => {
 
 }
 
-
+export default Cpp;
